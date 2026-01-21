@@ -1,10 +1,10 @@
 import React from 'react'
-import PropsTask1 from './Components/task/PropsTask1'
+import Task from './compound/Task'
 
 const App = () => {
   return (
     <div>
-      <PropsTask1 num1 = {10} num2={20} />
+      <Task></Task>
     </div>
   )
 }
