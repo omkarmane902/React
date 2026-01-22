@@ -1,10 +1,10 @@
 import React from 'react'
-import Task from './compound/Task'
+import FromTask from './component/FromTask'
 
 const App = () => {
   return (
     <div>
-      <Task></Task>
+      <FromTask></FromTask>
     </div>
   )
 }
