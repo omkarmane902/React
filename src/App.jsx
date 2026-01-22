@@ -1,10 +1,10 @@
 import React from 'react'
-import FileHandlingTask from './component/filehandlingtask'
+import Task from './FromHandling/Task'
 
 const App = () => {
   return (
     <div>
-    <FileHandlingTask></FileHandlingTask>
+      <Task></Task>
     </div>
   )
 }
