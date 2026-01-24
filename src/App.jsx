@@ -1,10 +1,10 @@
 import React from 'react'
-import Task from './FromHandling/Task'
+import TaskJunction from './component/TaskJunction'
 
 const App = () => {
   return (
     <div>
-      <Task></Task>
+      <TaskJunction></TaskJunction>
     </div>
   )
 }
