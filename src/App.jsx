@@ -1,6 +1,5 @@
 import React from 'react'
-import Junction from './component/componentJunction/Junction'
-
+import Junction from './JunctionComponent/junction'
 
 const App = () => {
   return (
