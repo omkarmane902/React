@@ -1,20 +1,11 @@
-import React from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router';
-import Login from './Component/Login';
-import Home from './Component/Home';
-
-
-const App = () => {
-  return (
-    <div>
-     <BrowserRouter>
-          <Routes>
-               <Route path='/' element={<Login/>}/>
-               <Route path='/home' element ={<Home/>}/>
-          </Routes>
-     </BrowserRouter>
-    </div>
-  )
+import React, { Component } from "react";
+class MyComponent extends React.Component{
+  render(){
+    return(
+      <div>
+        <h1>hiii</h1>
+      </div>
+    )
+  }
 }
-
-export default App
+export default MyComponent
