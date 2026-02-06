@@ -1,11 +1,13 @@
-import React, { Component } from "react";
-class MyComponent extends React.Component{
-  render(){
-    return(
-      <div>
-        <h1>hiii</h1>
-      </div>
-    )
-  }
+import React from 'react'
+import ComponentLifecycle from './Component Lifecycle/ComponentLifecycle'
+
+const App = () => {
+  return (
+    <div>
+  <ComponentLifecycle/>
+
+    </div>
+  )
 }
-export default MyComponent
+
+export default App
