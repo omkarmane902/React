@@ -1,11 +1,10 @@
 import React from 'react'
-import ComponentLifecycle from './Component Lifecycle/ComponentLifecycle'
+import Junction from './Component/Junction'
 
 const App = () => {
   return (
     <div>
-  <ComponentLifecycle/>
-
+      <Junction/>
     </div>
   )
 }
