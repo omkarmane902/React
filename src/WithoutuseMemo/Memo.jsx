@@ -13,7 +13,7 @@ const Memo = () => {
          setTotal(sum)
          console.log(sum);
          
-    },[count])
+    })
    
   return (
     <div>
@@ -23,5 +23,6 @@ const Memo = () => {
     </div>
   )
 }
+
 
 export default Memo
