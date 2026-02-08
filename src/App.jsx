@@ -1,10 +1,10 @@
 import React from 'react'
-import Memo from './WithoutuseMemo/memo'
+import Task1 from './useMemo/Task1'
 
 const App = () => {
   return (
     <div>
-      <Memo/>
+        <Task1/>
     </div>
   )
 }
