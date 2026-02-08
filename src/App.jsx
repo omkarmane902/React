@@ -1,11 +1,11 @@
 import React from 'react'
-import AppRouting from './Routing/AppRouting'
+import Memo from './WithoutuseMemo/memo'
 
 const App = () => {
   return (
-       <div>
-           <AppRouting/>
-       </div>
+    <div>
+      <Memo/>
+    </div>
   )
 }
 
