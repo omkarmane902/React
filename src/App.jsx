@@ -1,10 +1,15 @@
 import React from 'react'
-import Task1 from './useMemo/Task1'
+import Theme from './ThemeContext/Theme'
+import ThemeContext from './ThemeContext/ThemeContext'
 
 const App = () => {
   return (
     <div>
-        <Task1/>
+         <div>
+              <ThemeContext>
+                        <Theme/>  
+              </ThemeContext>
+         </div>
     </div>
   )
 }
