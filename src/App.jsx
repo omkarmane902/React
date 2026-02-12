@@ -1,16 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
+import InfiniteScroll from './InfiniteScroll_Component/LibraryInfiniteScroll'
 
 const App = () => {
-
-  let [count,setCount]=useState(0);
-  let handel = ()=>{
-    console.log("Button clicked....");
-    
-  }
   return (
     <div>
-        <button onClick={()=>{setCount(count + 1)}}>Count:{count}</button><br /><br />
-        <button onClick={handel}>count</button>
+          <InfiniteScroll/>
+
     </div>
   )
 }
